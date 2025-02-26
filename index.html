@@ -11,9 +11,9 @@
 
 <body>
 
-    <header>
+    <header class="header-section">
         <div class="logo-container">
-            <img src="images/logo.svg" alt="logo">
+            <img src="images/logo.svg" alt="logo" class="logo">
         </div>
 
         <h1>A history of everything you copy</h1>
@@ -39,27 +39,28 @@
                 </p>
             </div>
 
-            <div class="img-container">
-                <img src="images/image-computer.png" alt="computer image">
+            <div class="flex-container">
+                <div class="img-container">
+                    <img src="images/image-computer.png" alt="computer image" class="computer-image">
+                </div>
+
+                <div class="content-wrapper">
+                    <div class="content-container">
+                        <h3>Quick Search</h3>
+                        <p>Easily search your snippets by content, category, web address, application, and more.</p>
+                    </div>
+
+                    <div class="content-container">
+                        <h3>iCloud Sync</h3>
+                        <p>Instantly saves and syncs snippets across all your devices.</p>
+                    </div>
+
+                    <div class="content-container">
+                        <h3>Complete History</h3>
+                        <p>Retrieve any snippets from the first moment you started using the app.</p>
+                    </div>
+                </div>
             </div>
-
-            <div class="content-wrapper">
-                <div class="content-container">
-                    <h3>Quick Search</h3>
-                    <p>Easily search your snippets by content, category, web address, application, and more.</p>
-                </div>
-
-                <div class="content-container">
-                    <h3>iCloud Sync</h3>
-                    <p>Instantly saves and syncs snippets across all your devices.</p>
-                </div>
-
-                <div class="content-container">
-                    <h3>Complete History</h3>
-                    <p>Retrieve any snippets from the first moment you started using the app.</p>
-                </div>
-            </div>
-
         </section>
 
         <section class="section-2">
@@ -72,7 +73,7 @@
             </div>
 
             <div class="img-container">
-                <img src="images/image-devices.png" alt="devices">
+                <img src="images/image-devices.png" alt="devices" class="devices-img">
             </div>
         </section>
 
@@ -84,40 +85,57 @@
                 </p>
             </div>
 
-            <div class="flex-container">
+            <div class="grid-container">
                 <div class="item-container">
-                    <img src="images/icon-blacklist.svg" alt="blacklist icon">
+                    <div class="icon-container">
+                        <img src="images/icon-blacklist.svg" alt="blacklist icon">
+                    </div>
+                    <h3>Create blacklists</h3>
+                    <p>
+                        Ensure sensitive information never makes its way to your clipboard by excluding certain sources.
+                    </p>
                 </div>
-                <h3>Create blacklists</h3>
-                <p>
-                    Ensure sensitive information never makes its way to your clipboard by excluding certain sources.
-                </p>
+
+                <div class="item-container">
+                    <div class="icon-container">
+                        <img src="images/icon-text.svg" alt="text icon">
+                    </div>
+                    <h3>Plain text snippets</h3>
+                    <p>
+                        Remove unwanted formatting from copied text for a consistent look.
+                    </p>
+                </div>
+
+                <div class="item-container">
+                    <div class="icon-container">
+                        <img src="images/icon-preview.svg" alt="preview icon">
+                    </div>
+                    <h3>Sneak preview</h3>
+                    <p>
+                        Quick preview of all snippets on your Clipboard for easy access.
+                    </p>
+                </div>
             </div>
 
-            <div class="icon-container">
-                <img src="images/icon-text.svg" alt="text icon">
-                <h3>Plain text snippets</h3>
-                <p>
-                    Remove unwanted formatting from copied text for a consistent look.
-                </p>
-            </div>
-
-            <div class="icon-container">
-                <img src="images/icon-preview.svg" alt="preview icon">
-                <h3>Sneak preview</h3>
-                <p>
-                    Quick preview of all snippets on your Clipboard for easy access.
-                </p>
-            </div>
         </section>
 
         <section class="logo-section">
-            <div class="logo-container">
-                <img src="images/logo-google.png" alt="google logo">
-                <img src="images/logo-ibm.png" alt="ibm logo">
-                <img src="images/logo-microsoft.png" alt="microsoft logo">
-                <img src="images/logo-hp.png" alt="hp logo">
-                <img src="images/logo-vector-graphics.png" alt="vector graphics logo">
+            <div class="logos-container">
+                <div class="logo-container">
+                    <img src="images/logo-google.png" alt="google logo">
+                </div>
+                <div class="logo-container">
+                    <img src="images/logo-ibm.png" alt="ibm logo">
+                </div>
+                <div class="logo-container">
+                    <img src="images/logo-microsoft.png" alt="microsoft logo">
+                </div>
+                <div class="logo-container">
+                    <img src="images/logo-hp.png" alt="hp logo">
+                </div>
+                <div class="logo-container">
+                    <img src="images/logo-vector-graphics.png" alt="vector graphics logo">
+                </div>
             </div>
         </section>
 
@@ -137,8 +155,10 @@
         </section>
     </main>
 
-    <footer>
-        <img src="images/logo.svg" alt="logo">
+    <footer class="footer-section">
+        <div class="logo-container-footer">
+            <img src="images/logo.svg" alt="logo">
+        </div>
 
         <div class="footer-content">
             <p>FAQs</p>
@@ -148,7 +168,7 @@
             <p>Install Guide</p>
         </div>
 
-        <div class="icons-container">
+        <div class="icons-container-footer">
             <img src="images/icon-facebook.svg" alt="facebook icon">
             <img src="images/icon-twitter.svg" alt="twitter icon">
             <img src="images/icon-instagram.svg" alt="instagram icon">
