@@ -191,11 +191,12 @@ h1 {
     column-gap: 80px;
 }
 
-.footer-content p {
+.footer-content a {
     color: darkslategray;
 }
 
 .icons-container-footer {
     display: flex;
+    align-items: center;
     gap: 20px;
 }
